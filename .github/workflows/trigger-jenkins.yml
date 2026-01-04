@@ -17,6 +17,6 @@ jobs:
           user: ${{ secrets.JENKINS_USER }}
           token: ${{ secrets.JENKINS_TOKEN }}
           # SỬA DÒNG DƯỚI NÀY THÀNH TÊN PROJECT CỦA BẠN TRÊN JENKINS
-          job: "CI-CD-Pipeline-22120032"
+          job: "22120032"
           wait: true # GitHub sẽ đợi Jenkins chạy xong mới báo xanh
           timeout: "10m" # Nếu quá 10 phút thì hủy
